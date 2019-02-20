@@ -1,0 +1,122 @@
+*{
+	margin:0;padding:0;
+}
+header{
+	width:1280px;
+	height:80px;
+	background-color: rgb(240,228,228);
+}
+header h3{
+	float:left;
+	line-height: 80px;
+	margin-left: 20px;
+}
+header .header_r{
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+}
+header .header_r a{
+	margin:0 5px;
+	text-decoration: none;
+	color:#111;
+	font-size: 13px;
+}
+
+
+.tukuang{
+	border:1px solid #ccc;
+	width:360px;
+	height:360px;
+	margin:20px 0px 0px 20px;
+	float:left;
+	position: relative;
+}
+.tukuang img{
+	width:360px;
+	height:360px;
+}
+.ziliao{
+	float:right;
+	background-color: rgb(240,228,228);
+	width: 620px;
+	margin:20px 20px 0px 0px;
+	padding: 20px;
+	height:520px;
+	position:relative;
+}
+.ziliao h3{
+	line-height: 40px;
+}
+.ziliao p{
+	line-height: 20px;
+	font-size: 13px;
+	color:#666;
+}
+.ziliao span{
+	color:orange;
+	font-size: 16px;
+	line-height: 30px;
+}
+.ziliao .xuanze{
+	font-size: 24px;
+	line-height: 40px;
+	color:#111;
+}
+.ziliao input{
+	border:1px solid #ccc;
+	font-size: 20px;
+	padding:10px;
+	margin:10px 10px 0px 0px;
+	background-color: rgb(240,228,228);
+}
+.ziliao .gouwu{
+	background-color: orange;
+	color:#fff;
+	border:none;
+	width:160px;
+}
+#ziliao{
+	background:url(../image/liebiao_xiaomi6.jpg) no-repeat;
+	display: none;
+	width: 600px;
+	height: 600px;
+	position:absolute;
+	background-size: 560px 560px;
+	background-color: #fff;
+}
+
+.yxxinxi p{
+	line-height: 24px;
+	font-size: 14px;
+}
+.yxxinxi span{
+	color:orange;
+	font-size: 18px;
+	font-weight: bolder;
+}
+#mask{
+	width: 150px;
+	height: 150px;
+	opacity: 0.3;
+	background: blueviolet;
+	position: absolute;
+	display: none;
+}
+#xiaotu img{
+	width: 120px;
+	height: 120px;
+}
+#xiaotu{
+	position: absolute;
+	top:540px;
+	left:20px;
+}
+#xiaotu .xiaokuang:nth-of-type(1){
+	background: url(../image/liebiao_xiaomimix.jpg);
+}
+.xiaokuang{
+	width: 120px;
+	height: 120px;
+	float:left;
+}

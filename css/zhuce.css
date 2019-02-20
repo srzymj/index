@@ -1,0 +1,58 @@
+
+body{
+	background: #000;
+}
+
+
+.bigbox{
+	width: 1200px;
+	height: 500px;
+	border-radius: 10px;
+	background: #fff;
+	margin:50px auto;
+
+}
+.bigbox .top{
+	width: 75%;
+	margin:0 auto;
+	border-bottom: 2px solid #ff6a00;
+	height:60px;
+}
+.bigbox .top h2{
+	float:left;
+}
+.bigbox .top h5{
+	float:right;
+	color:#ff6a00;
+}
+
+.bigbox table span{
+	display:flex;
+}
+.bigbox .wenzi{
+	display: flex;
+	justify-content: space-between;
+}
+.bigbox table input{
+	height:30px;
+}
+.bigbox table th{
+	line-height: 50px;
+}
+.bigbox table span{
+	font-size: 12px;
+	color:#aaa;
+}
+.bigbox table .yzm{
+	width:72px;
+	float:left;
+}
+.ljzc{
+	background-color: #ff6a00;
+	color:#fff;
+	font-size: 24px;
+	border:none;
+	width:240px;
+	line-height: 40px;
+	margin-left: 245px;
+}

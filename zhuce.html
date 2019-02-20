@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/zhuce.css">
+</head>
+<body>
+	<div class="bigbox">
+		<div class="top">
+			<h2>会员注册</h2>
+			<h5>小米商城</h5>
+		</div>
+		<form action="loginCheck.php" method="post">
+			<table>
+				<tr>
+					<th class="wenzi">用&nbsp;户&nbsp;名&nbsp;：</th>
+					<th><input name="xmid" type="text" placeholder="请输入你的用户名"></th>
+					<th><span>请不要输入汉字</span></th>
+					
+				</tr>
+				<tr>
+					<th class="wenzi">密&nbsp;&nbsp;&nbsp;码&nbsp;：</th>
+					<th><input id="mm" name="xmpossword" type="text" placeholder="请输入您的密码"></th>
+					<th><span>请输入6位以上字符</span></th>
+					
+				</tr>
+				<tr>
+					<th class="wenzi">确认密码：</th>
+					<th><input id="queren" type="text" placeholder ="请确认您的密码"></th>
+					<th><span id="ts"></span></th>
+					
+				</tr>
+				<tr>
+					<th class="wenzi">手&nbsp;&nbsp;&nbsp;机&nbsp;：</th>
+					<th><input name="xmphone" type="text" placeholder="请填写正确的手机号码"></th>
+					<th><span>不可以为空哦</span></th>
+					
+				</tr>
+				<tr>
+					<th class="wenzi">验&nbsp;证&nbsp;码&nbsp;:</th>
+					<th><input class="yzm" type="text"><img src="image/yanzhengma.jpg" alt=""></th>
+				</tr>
+			</table>
+			<input  class="ljzc" type="submit" value="立即注册">
+		</form>
+		
+		
+	</div>
+</body>
+</html>
+<script>
+	window.onload=function(){
+		document.getElementById("queren").onblur=function(){
+			if(document.getElementById("queren").value!=document.getElementById("mm").value){
+				document.getElementById("ts").innerHTML="两次输入要一致";
+				document.getElementById("queren").focus();
+			}else{
+				document.getElementById("ts").innerHTML="恭喜您，密码可以使用";
+			}
+		}
+
+	}
+</script>
